@@ -1,0 +1,54 @@
+*,
+*::before *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+/*
+  Влад В
+*/
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+button{
+    padding: 0;
+}

@@ -1,0 +1,124 @@
+.header__bottom-btn {
+    width: 24px;
+    height: 24px;
+    svg {pointer-events: none;
+        line {
+            transition: all 0.3s;
+        }
+    }
+    &:hover {
+        svg {
+            line {
+                stroke: #fff200;
+            }
+        }
+    }
+}
+.arrow {
+    width: 24px;
+    height: 24px;
+    z-index: 5;
+    position: absolute;
+    top: -5px;
+    right: -28px;
+    svg {
+        width: 24px;
+        height: 24px;
+        path {
+            transition: all 0.3s;
+        }
+    }
+
+    &:hover {
+        svg {
+            path {
+                stroke: #fff200;
+            }
+        }
+    }
+}
+.size__btn {
+    color: $Night-Rider;
+    border-bottom: 1px solid currentColor;
+    display: block;
+    transition: all 0.3s;
+    &:hover {
+        text-shadow: #333333 1px 1px 1px;
+    }
+}
+.basket__btn {
+    min-width: 203px;
+    box-sizing: border-box;
+    margin-left: 12px;
+    padding: 12px 0;
+    color: #fff;
+    background-color: $Night-Rider;
+    transition: all 0.3s;
+    max-height: 44px;
+    &:hover {
+        color: $Yellow;
+    }
+}
+.btn-favourite {
+    max-height: 44px;
+    margin-left: 4px;
+    padding: 10px;
+    background-color: $Night-Rider;
+    svg {
+        width: 24px;
+        height: 21px;
+        path {
+            transition: all .3s;
+        }
+    }
+    &:hover {
+        svg {
+            path {
+                fill: $Yellow;
+            }
+        }
+    }
+}
+.footer__btn {
+    box-sizing: border-box;
+    border: 1px solid $Night-Rider;
+    padding: 8px 28px;
+    color: $Night-Rider;
+    float: right;
+    margin-right: 12px;
+    min-width: 150px;
+    transition: all 0.3s;
+    &:hover {
+        background-color: $Yellow;
+        color: #fff;
+        border: 1px solid $Yellow;
+    }
+}
+.cross {
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 71px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    svg {
+        width: 24px;
+        height: 24px;
+        path {
+            transition: all 0.3s;
+        }
+    }
+    &:hover {
+        border: 1px solid $Night-Rider;
+        svg {
+            path {
+                stroke: $Yellow;
+            }
+        }
+    }
+}
+.footer__btn-cross{
+    top: 50px;
+}

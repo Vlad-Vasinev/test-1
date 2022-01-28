@@ -1,0 +1,53 @@
+{
+  "_from": "rateyo@2.3.2",
+  "_id": "rateyo@2.3.2",
+  "_inBundle": false,
+  "_integrity": "sha1-e4e3Akyex5wRVCLDKQZ6ngPrksA=",
+  "_location": "/rateyo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "rateyo@2.3.2",
+    "name": "rateyo",
+    "escapedName": "rateyo",
+    "rawSpec": "2.3.2",
+    "saveSpec": null,
+    "fetchSpec": "2.3.2"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/rateyo/-/rateyo-2.3.2.tgz",
+  "_shasum": "7b87b7024c9ec79c115422c329067a9e03eb92c0",
+  "_spec": "rateyo@2.3.2",
+  "_where": "C:\\Users\\Влад\\Desktop\\from0to1\\портфолио\\test-1",
+  "author": {
+    "name": "prashanth pamidi",
+    "url": "https://github.com/prrashi"
+  },
+  "bugs": {
+    "url": "https://github.com/prrashi/rateYo/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A simple and flexible star rating plugin",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-less": "~0.12.0",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "matchdep": "~0.3.0"
+  },
+  "homepage": "http://rateyo.fundoocode.ninja/",
+  "main": "js/jquery.rateyo.js",
+  "name": "rateyo",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/prrashi/rateYo.git"
+  },
+  "version": "2.3.2"
+}

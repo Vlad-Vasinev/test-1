@@ -1,0 +1,21 @@
+
+// color palette
+
+$Gainsboro: #E5E5E5;
+$Night-Rider: #333333;
+$Grey: #828282;
+$Yellow: #FFF200;
+$White-Smoke: #F2F2F2;
+
+
+// color themes
+
+$text: $Night-Rider;
+$background: $Gainsboro;
+
+%OpenSans-regular{
+    font-family: 'OpenSans';
+    font-weight: 400;
+}
+
+$primary-font: OpenSans, sans-serif;
